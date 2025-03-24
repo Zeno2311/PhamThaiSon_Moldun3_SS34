@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+#click {
+    width: 100px;
+    height: 30px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#click:hover {
+    background-color: #0056b3;
+}
+
+select {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+.type {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.td {
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    width: 750px;
+    background-color: rgb(226, 226, 226);
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    padding: 0 10px;
+}
+
+.td div:nth-child(1) {
+    width: 30px;
+}
+
+/* # */
+.td div:nth-child(2) {
+    width: 200px;
+}
+
+/* Content */
+.td div:nth-child(3) {
+    width: 100px;
+}
+
+/* Due date */
+.td div:nth-child(4) {
+    width: 100px;
+}
+
+/* Status */
+.td div:nth-child(5) {
+    width: 100px;
+}
+
+/* Assigned to */
+.td div:nth-child(6) {
+    width: 60px;
+}
+
+/* Sửa */
+.td div:nth-child(7) {
+    width: 60px;
+}
+
+/* Xóa */
+
+.tr {
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    width: 750px;
+    border-bottom: 1px solid gray;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.tr div:nth-child(1) {
+    width: 30px;
+}
+
+.tr div:nth-child(2) {
+    width: 200px;
+}
+
+.tr div:nth-child(3) {
+    width: 100px;
+}
+
+.tr div:nth-child(4) {
+    width: 100px;
+}
+
+.tr div:nth-child(5) {
+    width: 100px;
+}
+
+.tr div:nth-child(6) {
+    width: 60px;
+}
+
+.tr div:nth-child(7) {
+    width: 60px;
+}
+
+.tr button {
+    padding: 2px 8px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.tr button:nth-child(1) {
+    /* Nút Sửa */
+    background-color: #ffc107;
+}
+
+.tr button:nth-child(1):hover {
+    background-color: #e0a800;
+}
+
+.tr button:nth-child(2) {
+    /* Nút Xóa */
+    background-color: #dc3545;
+}
+
+.tr button:nth-child(2):hover {
+    background-color: #c82333;
+}

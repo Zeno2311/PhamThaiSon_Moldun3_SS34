@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    margin: 50px auto;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 30%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+button#add-employee {
+    width: 25%;
+    height: 35px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+button#add-employee:hover {
+    background-color: #0056b3;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.employee-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.employee-table td {
+    background-color: white;
+}
+
+.employee-table th:nth-child(1),
+.employee-table td:nth-child(1) {
+    width: 10%;
+}
+
+.employee-table th:nth-child(2),
+.employee-table td:nth-child(2) {
+    width: 45%;
+}
+
+.employee-table th:nth-child(3),
+.employee-table td:nth-child(3) {
+    width: 45%;
+}
